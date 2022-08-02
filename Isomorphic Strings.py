@@ -31,7 +31,7 @@ def isIsomorphic(self, s: str, t: str) -> bool:
     #Failed test case: "bbbaaaba" "aaabbbba"
 
 
-"""Better Approach"""
+"""Better Approach - Leetcode Solution"""
 
 
 def BisIsomorphic(self, s: str, t: str) -> bool:
