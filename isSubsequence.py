@@ -1,4 +1,4 @@
-def isSubsequence(self, s: str, t: str) -> bool:
+def isSubsequence(s: str, t: str) -> bool:
     s_len, t_len = len(s), len(t)
     if s_len > t_len:
         return False
@@ -11,3 +11,6 @@ def isSubsequence(self, s: str, t: str) -> bool:
                 s_iterator += 1
             t_iterator += 1
         return s_len == s_iterator
+
+
+print(isSubsequence("abc", "abvc"))
